@@ -1,0 +1,87 @@
+
+{% extends "base.html" %}
+
+{% block contenido  %}
+
+<div class="text-center bg-secondary">
+    <h1>Carros clasicos</h1>
+</div>
+
+<div class="text-center row container bg-info p-3">
+    <h2 class="text-center bg-secondary">Su historia</h2>
+    <div class="col bg-secondary">
+        <h4>Las "7 Maravillas del Mundo Moderno" son monumentos icónicos elegidos por votación mundial en 2007: la Gran Muralla China, Petra (Jordania), el Coliseo (Italia), Chichén Itzá (México), Machu Picchu (Perú), el Taj Mahal (India) y el Cristo Redentor (Brasil). Estas obras destacan por su arquitectura, historia y la gran afluencia de visitantes que atraen, y representan una perspectiva global de maravillas que aún se conservan hoy en día. </h4>
+    </div>
+</div>
+
+<div class="card text-bg-info p-5">
+  <img src="{{ url_for("static" , filename="img/maravillas/mexico.jpg") }}" class="" alt="...">
+  <div class="">
+    <h3 class="card-title">Chichén Itzá</h3>
+    <h4 class="card-text">Chichén Itzá, en México, fue una gran ciudad maya ubicada en la península de Yucatán. Su pirámide de Kukulkán, observatorios y templos reflejan los avanzados conocimientos astronómicos y arquitectónicos de los mayas, y la ciudad funcionaba como un importante centro político, religioso y comercial en su tiempo.</h4>
+  </div>
+</div>
+
+
+<div class="card text-bg-info p-5">
+  <img src="{{ url_for("static" , filename="img/maravillas/china.jpg") }}" class="" alt="...">
+  <div class="">
+    <h3 class="card-title">La Gran Muralla China</h3>
+    <h4 class="card-text">La Gran Muralla China es una impresionante estructura defensiva construida a lo largo de varios siglos para proteger al imperio chino de invasiones. Con miles de kilómetros de longitud, atraviesa montañas, valles y desiertos, y es un símbolo de la ingeniería y perseverancia de la antigua China, mostrando la capacidad de organización y visión estratégica de sus constructores.</h4>
+  </div>
+</div>
+
+
+<div class="card text-bg-info p-5">
+  <img src="{{ url_for("static" , filename="img/maravillas/petra.jpg") }}" class="" alt="...">
+  <div class="">
+    <h3 class="card-title">Petra </h3>
+    <h4 class="card-text">Petra, en Jordania, es una ciudad antigua tallada directamente en la roca de color rojizo. Famosa por su arquitectura nabatea, como el Tesoro o Al Khazneh, Petra fue un importante centro comercial y cultural, y su impresionante fachada y sistemas de canales de agua muestran el ingenio de sus habitantes para adaptarse a un entorno desértico.</h4>
+  </div>
+</div>
+
+
+
+<div class="card text-bg-info p-5">
+  <img src="{{ url_for("static" , filename="img/maravillas/peru.jpg") }}" class="" alt="...">
+  <div class="">
+    <h3 class="card-title">Machu Picchu</h3>
+    <h4 class="card-text">Machu Picchu, en Perú, es una ciudadela inca ubicada en lo alto de los Andes. Construida con piedras perfectamente encajadas sin mortero, Machu Picchu combina la ingeniería con la armonía del paisaje, y aunque su propósito exacto sigue siendo tema de debate, se cree que fue un centro religioso y residencial para la élite inca.</h4>
+  </div>
+</div>
+
+
+
+<div class="card text-bg-info p-5">
+  <img src="{{ url_for("static" , filename="img/maravillas/brasil.jpg") }}" class="" alt="...">
+  <div class="">
+    <h3 class="card-title">El Cristo Redentor</h3>
+    <h4 class="card-text">El Cristo Redentor, en Brasil, es una colosal estatua de Jesús ubicada en la cima del cerro del Corcovado en Río de Janeiro. Con sus brazos extendidos, representa la paz y la acogida, y se ha convertido en un icono mundial de Brasil, visible desde casi toda la ciudad, simbolizando la fe, la cultura y el espíritu del país.</h4>
+  </div>
+</div>
+
+
+
+
+<div class="card text-bg-info p-5">
+  <img src="{{ url_for("static" , filename="img/maravillas/Italia.jpg") }}" class="" alt="...">
+  <div class="">
+    <h3 class="card-title">El Coliseo</h3>
+    <h4 class="card-text">El Coliseo, en Italia, es un anfiteatro romano situado en el corazón de Roma. Construido hace casi 2,000 años, podía albergar a decenas de miles de espectadores para eventos públicos, combates de gladiadores y representaciones teatrales. Es un símbolo de la ingeniería romana, con su arquitectura monumental y sistema de arcos que todavía inspira admiración.</h4>
+  </div>
+</div>
+
+
+
+
+<div class="card text-bg-info p-5">
+  <img src="{{ url_for("static" , filename="img/maravillas/idia.jpg") }}" class="" alt="...">
+  <div class="">
+    <h3 class="card-title">El Taj Mahal</h3>
+    <h4 class="card-text">El Taj Mahal, en India, es un mausoleo de mármol blanco construido por el emperador Shah Jahan en memoria de su esposa Mumtaz Mahal. Su simetría, jardines y decoración exquisita con incrustaciones de piedras preciosas lo convierten en un ejemplo perfecto de la arquitectura mogol y un símbolo eterno del amor y la dedicación artística.</h4>
+  </div>
+</div>
+
+
+
+{%endblock%}
