@@ -1,0 +1,126 @@
+
+{% extends "base.html" %}
+
+{% block contenido  %}
+
+<div class="text-center bg-secondary">
+    <h1>Carros clasicos</h1>
+</div>
+
+<div class="text-center row container bg-info mx-auto p-3">
+    <h2 class="text-center bg-secondary">Su historia</h2>
+    <div class="col bg-secondary">
+        <h4>Flask es un microframework de Python que sirve para crear aplicaciones web rápidamente y de forma sencilla. Es minimalista, ligero y flexible, proporcionando las herramientas básicas para el enrutamiento de URLs y el manejo de la representación de páginas, pero permite escalar a aplicaciones complejas mediante extensiones. Se usa principalmente para construir APIs, microservicios y prototipos web</h4>
+    </div>
+</div>
+
+<div id="carouselExampleCaptions" class="bg-info carousel slide container p-5">
+<div class="bg-info carousel slide container p-5">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="{{ url_for("static" , filename="img/carros/clasico1.webp") }}" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <p>Jaguar E-Type</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="{{ url_for("static" , filename="img/carros/clasico2.webp") }}" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <p>BMW M5 (E28)</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="{{ url_for("static" , filename="img/carros/clasico3.webp") }}" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <p>Citroën DS</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
+
+<div class="text-center bg-secondary">
+    <h1>ejemplos de autos clasicos</h1>
+</div>
+
+
+<div class="text-center row container bg-info mx-auto p-3">
+    <h2 class="text-center bg-secondary">1.-Ferrari F40 </h2>
+    <div class="col bg-secondary">
+        <h4>El Ferrari F40 nació en 1987 para celebrar los 40 años de la marca y fue el último modelo aprobado por Enzo Ferrari antes de su muerte lo que le dio un valor histórico enorme Su origen está en el prototipo 288 GTO Evoluzione que nunca llegó a competir y se transformó en la base de este superdeportivo radical El F40 montaba un motor V8 biturbo de 2.9 litros con 478 caballos alcanzaba más de 320 km/h y era en su momento el auto más rápido del mundo Su carrocería ligera de fibra de carbono y kevlar junto con un interior sin lujos lo convertían en una máquina pura de velocidad Se planeaban solo 400 unidades pero la demanda hizo que se fabricaran 1315 hasta 1992 y hoy es considerado uno de los superautos más legendarios y deseados por su crudeza potencia y su conexión directa con la visión de Enzo Ferrari</h4>
+    </div>
+    <div>
+        <img src="{{ url_for("static" , filename="img/carros/1.-Ferrari F40.png") }}" class="" alt="...">
+    </div>
+</div>
+
+
+
+<div class="text-center row container bg-info mx-auto p-3">
+    <h2 class="text-center bg-secondary">2.-Porsche 909 Bergspyder  </h2>
+    <div class="col bg-secondary">
+        <H4>El Porsche 909 Bergspyder fue un prototipo creado en 1968 para dominar las competiciones de subida de montaña su objetivo principal era ser extremadamente ligero y rápido por eso pesaba solo 384 kilos usando materiales como titanio magnesio aluminio y plásticos especiales incluso su tanque de gasolina era una bolsa presurizada de látex montaba un motor bóxer de 8 cilindros y 2 litros que entregaba 275 caballos lo que le permitía acelerar con gran potencia gracias a su peso mínimo aunque era muy innovador resultaba frágil y difícil de manejar solo se construyeron dos unidades y hoy se considera una rareza histórica y un ejemplo extremo de la filosofía de Porsche en competiciones de montaña</H4>
+    </div>
+    <div>
+        <img src="{{ url_for("static" , filename="img/carros/2.-Porsche 909 Bergspyder.png") }}" class="" alt="...">
+    </div>
+</div>
+
+
+
+
+<div class="text-center row container bg-info mx-auto p-3">
+    <h2 class="text-center bg-secondary">3.-Volkswagen T2  </h2>
+    <div class="col bg-secondary">
+        <h4>El Volkswagen T2, producido desde 1967, es la segunda generación de la famosa furgoneta VW con motor trasero refrigerado por aire y mejoras respecto a la T1 se destacó por su versatilidad como transporte de pasajeros, carga o camper y se convirtió en un ícono de la cultura hippie gracias a su diseño y amplitud a lo largo de los años fue popular por su robustez sencillez mecánica y confiabilidad y muchas unidades aún se conservan como vehículos clásicos</h4>
+    </div>
+    <div>
+        <img src="{{ url_for("static" , filename="img/carros/3.-Volkswagen T2.png") }}" class="" alt="...">
+    </div>
+</div>
+
+
+
+
+<div class="text-center row container bg-info mx-auto p-3">
+    <h2 class="text-center bg-secondary">4.-BMW 328  </h2>
+    <div class="col bg-secondary">
+        <h4>El BMW 328, producido entre 1936 y 1940, fue un deportivo icónico con motor de 6 cilindros en línea de 2 litros y chasis ligero que le daba gran agilidad y velocidad participó en muchas carreras europeas logrando importantes victorias y consolidando la reputación de BMW como fabricante de deportivos su diseño elegante lo convirtió en un clásico muy valorado hoy por coleccionistas</h4>
+    </div>
+    <div>
+        <img src="{{ url_for("static" , filename="img/carros/4.-BMW 328.png") }}" class="" alt="...">
+    </div>
+</div>
+
+
+
+
+<div class="text-center row container bg-info mx-auto p-3">
+    <h2 class="text-center bg-secondary">5.-Lamborghini Miura  </h2>
+    <div class="col bg-secondary">
+        <h4>El Lamborghini Miura, producido entre 1966 y 1973, es considerado el primer superdeportivo moderno gracias a su motor V12 central trasero, que revolucionó el diseño de autos deportivos de alto rendimiento. Su estética baja y elegante, con líneas curvas y agresivas, lo convirtió en un ícono inmediato. Fue extremadamente rápido para su época, capaz de superar los 280 km/h, y su ingeniería y estilo marcaron el inicio de la reputación de Lamborghini como fabricante de autos exóticos y deseados. Hoy es un clásico legendario, símbolo de lujo, velocidad y diseño innovador.</h4>
+    </div>
+    <div>
+        <img src="{{ url_for("static" , filename="img/carros/5.-Lamborghini Miura.png") }}" class="" alt="...">
+    </div>
+</div>
+
+
+
+
+
+
+{%endblock%}

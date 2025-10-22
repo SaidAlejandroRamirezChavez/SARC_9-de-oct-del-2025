@@ -1,0 +1,54 @@
+
+{% extends "base.html" %}
+
+{% block contenido  %}
+<div class="text-center bg-secondary">
+    <h1>introduccion al tema</h1>
+    <h3>¿que usamos?</h3>
+</div>
+
+
+<div class="text-center row container bg-info mx-auto p-3">
+    <h2 class="text-center bg-secondary">Flask</h2>
+    <div class="col-9 bg-secondary">
+        <h4>Flask es un microframework de Python que sirve para crear aplicaciones web rápidamente y de forma sencilla. Es minimalista, ligero y flexible, proporcionando las herramientas básicas para el enrutamiento de URLs y el manejo de la representación de páginas, pero permite escalar a aplicaciones complejas mediante extensiones. Se usa principalmente para construir APIs, microservicios y prototipos web</h4>
+    </div>
+    <div class="col bg-info">
+        <img src="{{ url_for("static" , filename="img/inicio/flask.png") }}" class="" alt="...">
+    </div>
+</div>
+
+<div class="text-center row container bg-info mx-auto p-3">
+    <h2 class="text-center bg-secondary">python</h2>
+    <div class="col bg-info">
+        <img src="{{ url_for("static" , filename="img/inicio/python.png") }}" class="" alt="...">
+    </div>
+    <div class="col-9 bg-secondary">
+        <h4>Python es un lenguaje de programación de propósito general, gratuito y de código abierto, conocido por su sintaxis fácil de leer y su amplia aplicabilidad, que sirve para crear sitios web, software, automatizar tareas, y realizar análisis de datos, ciencia de datos, inteligencia artificial y machine learning. Su popularidad se debe a su versatilidad, su gran comunidad de desarrolladores que aportan librerías extensas, y su facilidad para principiantes. </h4>
+    </div>
+</div>
+
+<div class="text-center row container bg-info mx-auto p-3">
+    <h2 class="text-center bg-secondary">HTML</h2>
+    <div class="col-9 bg-secondary">
+        <h4>HTML, que significa Lenguaje de Marcado de Hipertexto (HyperText Markup Language), es el lenguaje estándar utilizado para crear y estructurar el contenido de las páginas web, desde textos y títulos hasta imágenes y formularios. Funciona mediante etiquetas y atributos que le indican al navegador cómo mostrar los diferentes elementos de una página web, creando la estructura que el usuario final ve en su navegador. </h4>
+    </div>
+    <div class="col bg-info">
+        <img src="{{ url_for("static" , filename="img/inicio/html y css.png") }}" class="" alt="...">
+    </div>
+</div>
+
+<div class="text-center bg-secondary">
+    <h1>finalidad</h1>
+</div>
+
+<div class="text-center row container bg-info mx-auto">
+    <div class="col bg-secondary">
+        <h4>La finalidad de este trabajo es implementar los conocimientos adquiridos en el transcurso de el paricial, haciendo uso de las herramientas y ejemplos que nos dio el maestro en clases, de igual manera es importante tomar de reflecion la importancia de conoser nuestro rpograma y entender como funciona para solucionar posibles errores que se presenten en nuestro camino para ser programadores</h4>
+    </div>
+</div>
+
+</div>
+
+
+{%endblock%}
